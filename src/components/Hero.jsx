@@ -41,8 +41,8 @@ const Hero = () => {
                 trigger:'video',
                 start:startValue,
                 end:endValue,
-                scrub:true,
-                pin:true
+                scrub:.5,
+                pin:true,
             }
         })
         videoRef.current.onloadedmetadata = ()=>{
